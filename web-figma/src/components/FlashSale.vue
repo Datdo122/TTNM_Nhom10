@@ -48,7 +48,7 @@ const timeLeft = ref({
 const products = ref([
   {
     name: 'Samsung Galaxy Buds 2 Pro',
-    image: 'https://placehold.co/80x80/6b7280/6b7280',
+    image: new URL('../assets/images/samsung-galaxy-buds-2-pro.png', import.meta.url).href,
     salePrice: '3.490.000đ',
     originalPrice: '4.990.000đ',
     sold: 12,
@@ -57,7 +57,7 @@ const products = ref([
   },
   {
     name: 'Tai nghe Sony WH-1000XM4',
-    image: 'https://placehold.co/80x80/f59e0b/f59e0b',
+    image: new URL('../assets/images/sony-headphones.png', import.meta.url).href,
     salePrice: '5.990.000đ',
     originalPrice: '7.990.000đ',
     sold: 18,
@@ -66,7 +66,7 @@ const products = ref([
   },
   {
     name: 'Xiaomi Mi Watch Lite',
-    image: 'https://placehold.co/80x80/8b5cf6/8b5cf6',
+    image: new URL('../assets/images/samsung-galaxy-buds-2-pro.png', import.meta.url).href,
     salePrice: '1.290.000đ',
     originalPrice: '1.990.000đ',
     sold: 8,
@@ -75,7 +75,7 @@ const products = ref([
   },
   {
     name: 'Apple Watch Series 8 GPS 41mm',
-    image: 'https://placehold.co/80x80/dc2626/dc2626',
+    image: new URL('../assets/images/sony-headphones.png', import.meta.url).href,
     salePrice: '8.490.000đ',
     originalPrice: '9.990.000đ',
     sold: 15,
@@ -84,7 +84,7 @@ const products = ref([
   },
   {
     name: 'AirPods Pro 2nd Generation',
-    image: 'https://placehold.co/80x80/3b82f6/3b82f6',
+    image: new URL('../assets/images/samsung-galaxy-buds-2-pro.png', import.meta.url).href,
     salePrice: '5.490.000đ',
     originalPrice: '6.990.000đ',
     sold: 10,
@@ -93,7 +93,7 @@ const products = ref([
   },
   {
     name: 'Samsung Galaxy Watch 5',
-    image: 'https://placehold.co/80x80/10b981/10b981',
+    image: new URL('../assets/images/sony-headphones.png', import.meta.url).href,
     salePrice: '4.990.000đ',
     originalPrice: '6.490.000đ',
     sold: 14,

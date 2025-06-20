@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-shrink-0 flex items-center p-4 bg-white rounded-lg border border-gray-200 h-[120px] w-[350px] max-md:w-[320px] max-sm:w-[300px] hover:shadow-md transition-shadow">
+  <router-link :to="{ name: 'product-detail' }" class="flex-shrink-0 flex items-center p-4 bg-white rounded-lg border border-gray-200 h-[120px] w-[350px] max-md:w-[320px] max-sm:w-[300px] hover:shadow-md transition-shadow">
     <!-- Product Image -->
     <img :src="product.image" :alt="product.name" class="w-16 h-16 rounded-lg object-cover flex-shrink-0" />
     
@@ -26,7 +26,7 @@
         Đã bán {{ product.sold }}/{{ product.total }}
       </div>
     </div>
-  </div>
+  </router-link>
 </template>
 
 <script setup>

@@ -10,7 +10,7 @@
       Mua ngay
     </button>
     <img
-      src="https://placehold.co/569x320/4a90e2/4a90e2"
+      src="../assets/images/iphone-15-pro-max.png"
       alt="iPhone 15 Pro"
       class="absolute top-2 h-80 right-[113px] w-[569px] max-md:h-[200px] max-md:right-[60px] max-md:w-[300px] max-sm:hidden"
     />

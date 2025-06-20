@@ -3,8 +3,10 @@
     <div class="absolute top-0 left-0 px-2 py-1.5 h-6 text-xs leading-4 text-white bg-red-500 rounded-none">{{ product.discount }}</div>
     <div class="absolute top-0 right-0 px-2 py-1.5 h-6 text-xs leading-4 text-white bg-red-500 rounded-none">{{ product.badge }}</div>
 
-    <div class="mt-4 mb-4 h-[158px] w-[251px] mx-auto">
-      <div v-html="product.imageSvg" class="product-image" style="width: 251px; height: 158px; margin: 16px auto 0; display: block"></div>
+    <div class="mt-4 mb-4 h-[158px] w-[251px] mx-auto cursor-pointer">
+      <router-link :to="{ name: 'product-detail' }" class="mt-4 mb-4 h-[158px] w-[251px] mx-auto cursor-pointer block">
+        <img :src="product.image" :alt="product.name" class="product-image" style="width: 251px; height: 158px; margin: 16px auto 0; display: block"/>
+      </router-link>
     </div>
 
     <h3 class="mt-4 text-base leading-6 text-black">{{ product.name }}</h3>

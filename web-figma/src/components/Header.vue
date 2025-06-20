@@ -11,7 +11,7 @@
 
       <!-- Navigation - Hidden on mobile -->
       <nav class="hidden md:flex items-center gap-6">
-        <a href="#" class="text-base text-gray-700 hover:text-blue-600 transition-colors">Danh mục</a>
+        <CategoryMenu />
         <a href="#" class="text-base text-gray-700 hover:text-blue-600 transition-colors">Khuyến mãi</a>
       </nav>
 
@@ -75,4 +75,5 @@
 </template>
 
 <script setup>
+import CategoryMenu from './CategoryMenu.vue'
 </script>

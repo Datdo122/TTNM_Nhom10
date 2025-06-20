@@ -1,8 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomePage.vue'
-import ProductsView from '../views/ProductsView.vue'
+import ProductDetailView from '../views/ProductDetail.vue'
 import CategoriesView from '../views/CategoriesView.vue'
 import AboutView from '../views/AboutView.vue'
+import PhoneListView from '../views/PhoneListView.vue'
+import CartView from '../views/CartView.vue'
+import CompareView from '../views/CompareView.vue'
 
 const routes = [
   {
@@ -11,9 +14,9 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/products',
-    name: 'products',
-    component: ProductsView
+    path: '/product-detail',
+    name: 'product-detail',
+    component: ProductDetailView
   },
   {
     path: '/categories',
@@ -24,6 +27,21 @@ const routes = [
     path: '/about',
     name: 'about',
     component: AboutView
+  },
+  {
+    path: '/phones',
+    name: 'phones',
+    component: PhoneListView
+  },
+  {
+    path: '/cart',
+    name: 'cart',
+    component: CartView
+  },
+  {
+    path: '/compare',
+    name: 'compare',
+    component: CompareView
   }
 ]
 
