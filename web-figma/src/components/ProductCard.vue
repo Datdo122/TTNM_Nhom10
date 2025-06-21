@@ -27,14 +27,14 @@
     <div class="absolute bottom-4 left-4 right-4">
       <div class="flex items-center gap-3">
         <!-- Mua ngay button -->
-        <button class="flex-1 inline-flex items-center justify-center py-2.5 text-base font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors">
+        <router-link to="/checkout" class="flex-1 inline-flex items-center justify-center py-2.5 text-base font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer">
           Mua ngay
-        </button>
+        </router-link>
         
         <!-- Cart button -->
-        <button class="flex items-center justify-center w-10 h-10 bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors">
+        <router-link to="/cart" class="flex items-center justify-center w-10 h-10 bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors">
           <i class="ti ti-shopping-cart text-white"></i>
-        </button>
+        </router-link>
       </div>
     </div>
   </article>

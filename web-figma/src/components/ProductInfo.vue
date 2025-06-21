@@ -47,12 +47,12 @@
       <StorageSelector v-model="selectedStorage" />
   
       <div class="flex flex-wrap gap-2 mt-6 text-center text-white max-md:max-w-full">
-        <button class="grow shrink-0 px-16 py-4 text-base leading-relaxed bg-blue-600 rounded-lg basis-0 w-fit max-md:px-5 max-md:max-w-full cursor-pointer active:scale-95 duration-200 shadow-md hover:shadow-lg">
+        <router-link to="/checkout" class="grow shrink-0 px-16 py-4 text-base leading-relaxed bg-blue-600 rounded-lg basis-0 w-fit max-md:px-5 max-md:max-w-full cursor-pointer active:scale-95 duration-200 shadow-md hover:shadow-lg flex items-center justify-center">
           Mua ngay
-        </button>
-        <button class="px-9 py-4 text-sm leading-none whitespace-nowrap bg-blue-600 rounded-lg max-md:px-5 cursor-pointer active:scale-95 duration-200 shadow-md hover:shadow-lg">
+        </router-link>
+        <router-link to="/cart" class="flex items-center justify-center px-9 py-4 text-sm leading-none whitespace-nowrap bg-blue-600 rounded-lg max-md:px-5 cursor-pointer active:scale-95 duration-200 shadow-md hover:shadow-lg">
           <i class="ti ti-shopping-cart"></i>
-        </button>
+        </router-link>
       </div>
   
       <div class="flex flex-col items-start pt-5 pr-20 pb-0.5 mt-6 w-full border-t max-md:pr-5 max-md:max-w-full">

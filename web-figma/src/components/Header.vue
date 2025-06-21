@@ -2,12 +2,12 @@
   <header class="w-full bg-white shadow-sm h-[66px] border-b border-gray-200">
     <div class="flex items-center justify-between h-full px-4 max-w-screen-2xl mx-auto">
       <!-- Logo -->
-      <div class="flex items-center gap-2 min-w-[160px]">
+      <router-link to="/" class="flex items-center gap-2 min-w-[160px]">
         <div class="flex justify-center items-center h-10 text-3xl text-blue-600 w-[30px]">
           <i class="ti ti-shopping-cart"></i>
         </div>
         <div class="text-2xl font-bold text-blue-600">TechShop</div>
-      </div>
+      </router-link>
 
       <!-- Navigation - Hidden on mobile -->
       <nav class="hidden md:flex items-center gap-6">
@@ -28,9 +28,9 @@
           </button>
         </div>
         <div class="relative">
-          <button class="text-gray-700 hover:text-blue-600 transition-colors">
+          <router-link to="/cart" class="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">
             <i class="ti ti-shopping-cart text-2xl"></i>
-          </button>
+          </router-link>
           <div class="absolute -top-2 -right-2 w-5 h-5 text-xs leading-4 text-center text-white bg-blue-600 rounded-full">1</div>
         </div>
       </div>

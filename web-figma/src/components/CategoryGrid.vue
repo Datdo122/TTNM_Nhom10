@@ -18,30 +18,35 @@ import CategoryCard from './CategoryCard.vue';
 const categories = ref([
   {
     name: 'Laptop',
+    link: '/laptops',
     icon: 'ti ti-device-laptop',
     bgColor: 'bg-blue-100',
     iconColor: 'text-blue-600'
   },
   {
     name: 'Điện thoại',
+    link: '/phones',
     icon: 'ti ti-device-mobile',
     bgColor: 'bg-green-100',
     iconColor: 'text-green-600'
   },
   {
     name: 'Tablet',
+    link: '/tablets',
     icon: 'ti ti-device-tablet',
     bgColor: 'bg-yellow-100',
     iconColor: 'text-yellow-600'
   },
   {
     name: 'Tai nghe',
+    link: '/headphones',
     icon: 'ti ti-headphones',
     bgColor: 'bg-purple-100',
     iconColor: 'text-purple-600'
   },
   {
     name: 'Gaming',
+    link: '/gaming',
     icon: 'ti ti-device-gamepad-2',
     bgColor: 'bg-red-100',
     iconColor: 'text-red-600'

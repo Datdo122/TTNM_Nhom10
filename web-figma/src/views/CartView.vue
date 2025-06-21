@@ -103,11 +103,11 @@
           <span class="text-blue-600 font-bold text-lg">{{ formatCurrency(totalSelectedPrice) }}</span>
         </div>
 
-        <button
-          class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md text-sm font-medium whitespace-nowrap"
+        <router-link to="/checkout"
+          class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md text-sm font-medium whitespace-nowrap cursor-pointer"
         >
           Mua hàng
-        </button>
+        </router-link>
       </div>
     </div>
 
